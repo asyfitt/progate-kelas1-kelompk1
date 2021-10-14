@@ -1,7 +1,28 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-
+.header-left{
+    float:left;
+    background-color: #333;
+    overflow: hidden;
+}
+.header-left a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.header-left a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.header-right{
+    float:left;
+    background-color: #333;
+    overflow: hidden;
+}
 .content {
     color: #22343D;
 }
