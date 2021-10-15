@@ -1,45 +1,70 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Helvetica;
+    background-color: #f4f4f4;
 }
 .container{
-  max-width:1170px;
-  margin:0 auto; 
-  padding:0 15px;
+    width: 80px;
+    margin: auto;
+    overflow: hidden;
 }
-.bagi{
-  display:flex;
+header{
+    background: #f4f4f4;
+    color: rgb(24, 180, 219);
+    padding-top: 10px;
+    min-height: 70px;
 }
-.resource{
-  padding:0 50px;
-  width:20%;
+header h1{
+    float: left;
+    padding-left: 70px;
+    margin: 5px;
+    color: teal;
 }
-.legal{
-  padding: 0 50px;
-  width: 30%;
+header nav {
+    float: right;
+    margin-top: 15px;
+
 }
-.btn{
-  padding: 0 50px;
-  width: 40%;
+header li{
+    color: teal;
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  
 }
-.contact-submit{
-  display: block;
-  background-color: green;
-  margin-top: 10px;
-  padding: 10px;
-  border-radius: 3px;
-  color:white;
+header a{
+    color: teal;
+    text-decoration: none;
+    text-transform: unset;
+    font-size: 17px;
+     color: teal;
 }
-.btn input{
-  padding: 10px 24px;
+ul{
+    margin: 0;
+    padding: 0;
+    padding-right: 15px;
+}
+header #Product, header .active a{
+    color: #fff;
+    font-weight: bold   ;
+}
+header a:hover{
+    color:  rgb(157, 255, 0);
+    font-weight: bold;
 }
 
+@media all and (max-width: 1000px) {
+  
+}
+
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+}
