@@ -15,19 +15,19 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 .main {
     width: 1122px;
-    margin: auto;
-}
-.text-container {
+    margin: 0 auto;
     display: flex;
-    flex: auto;
+    flex-wrap: wrap;
 }
 
 .main-text {
-    width: 581px;
+    flex: auto;
+    width: 50%;
 }
 
 .main-image {
-    width: 540px;
+    flex: auto;
+    width: 50%;
 }
 
 .main-text h1 {
@@ -63,7 +63,6 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 .submit-placeholder {
     width: 61%;
-    float: left;
 }
 
 .submit-form {
@@ -79,7 +78,6 @@ h1, h2, h3, h4, h5, h6, p, div {
 .submit-btn {
     cursor: pointer;
     display: inline-block;
-    float: right;
     width: 20%;
     height: 70px;
     line-height: 70px;
@@ -171,4 +169,8 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 .img-1 {
     width: 100%;
+}
+
+.img-2 {
+    display: none;
 }
