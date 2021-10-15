@@ -1,0 +1,164 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+    width: 1122px;
+    margin: auto;
+}
+.text-container {
+    width: 580px;
+}
+
+.img-container {
+    width: 540px;
+}
+
+.main-text {
+    width: 581px;
+}
+
+.main-text h1 {
+    width: 370px;
+    height: 120px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 149%;
+    letter-spacing: -0.03em;
+    color: #22343D;
+}
+
+.main-text p {
+    padding: 24px 0px   ;
+    width: 535px;
+    height: 96px;
+    left: 0px;
+    top: 144px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.03em;
+    color: #22343D;
+}
+
+.submit-container {
+    display: flex;
+    width: 469.45px;
+    height: 66px;
+    border: 1px solid #EAEAEA;
+    border-radius: 100px;
+}
+
+.submit-container p {
+    float: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    width: 117.12px;
+    height: 66px;
+    line-height: 66px;
+    background-color: #02897A;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.submit-btn p{
+    color: #EAEAEA;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.join-pic {
+    display: flex;
+    position: relative;
+}
+
+.pic-container {
+    position: relative;
+    padding-top: 24px;
+    display: flex;
+    margin-left: 0px;
+}
+
+.submit-pic {
+    position: absolute;
+}
+
+.pic-1 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/people_1.png");
+    background-size: contain;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 4px solid rgba(255,255,255,1);
+    border-radius: 100px;
+}
+
+.pic-2 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/people_2.png");
+    background-size: contain;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: -10px;
+    border: 4px solid rgba(255,255,255,1);
+    border-radius: 100px;
+}
+
+.pic-3 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/people_3.png");
+    background-size: contain;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: -20px;
+    border: 4px solid rgba(255,255,255,1);
+    border-radius: 100px;
+}
+
+.join-pic p {
+    height: 50px;
+    line-height: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.join-pic span {
+    color: #02897A;
+}
+
+.main-picture {
+    width: 100%;
+}
