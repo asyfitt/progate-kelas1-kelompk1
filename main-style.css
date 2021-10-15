@@ -5,8 +5,12 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
-a {
-  text-decoration: none;
+::placeholder {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 25px;
 }
 
 .main {
@@ -14,15 +18,16 @@ a {
     margin: auto;
 }
 .text-container {
-    width: 580px;
-}
-
-.img-container {
-    width: 540px;
+    display: flex;
+    flex: auto;
 }
 
 .main-text {
     width: 581px;
+}
+
+.main-image {
+    width: 540px;
 }
 
 .main-text h1 {
@@ -52,34 +57,39 @@ a {
     color: #22343D;
 }
 
-.submit-container {
+.form-container {
     display: flex;
-    width: 469.45px;
-    height: 66px;
-    border: 1px solid #EAEAEA;
-    border-radius: 100px;
 }
 
-.submit-container p {
+.submit-placeholder {
+    width: 61%;
     float: left;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    padding-left: 25px;
-    box-sizing: border-box;
+}
+
+.submit-form {
+    width: 272.33px;
+    height: 66px;
+    border: 1px solid #EAEAEA;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 60px;
+    padding-right: 20px;
 }
 
 .submit-btn {
     cursor: pointer;
     display: inline-block;
     float: right;
-    width: 117.12px;
-    height: 66px;
-    line-height: 66px;
+    width: 20%;
+    height: 70px;
+    line-height: 70px;
     background-color: #02897A;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
+}
+
+.submit-btn:hover {
+    background-color: #02891A;
 }
 
 .submit-btn p{
@@ -88,13 +98,13 @@ a {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
+    padding-left: 20px;
     margin-right: 10px;
     box-sizing: border-box;
 }
 
 .join-pic {
     display: flex;
-    position: relative;
 }
 
 .pic-container {
@@ -159,6 +169,6 @@ a {
     color: #02897A;
 }
 
-.main-picture {
+.img-1 {
     width: 100%;
 }
