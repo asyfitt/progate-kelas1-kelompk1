@@ -1,5 +1,5 @@
 @media (max-width: 670px) {
-    
+
     .main {
         width: 50%;
         margin: 0px 50px;
@@ -9,7 +9,7 @@
         width: 90%;
         height: 64px;
     }
-    
+
     .main-image {
         width: 100%;
     }
@@ -21,19 +21,50 @@
     .img-2 {
         display: block;
         width: 100%;
-    }    
+    }
 
     .form-container {
         width: 50%;
     }
+
+    /* ================================== */
+    .card {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .bagi {
+        flex-direction: column;
+    }
+
+    .wrap {
+        width: 100%;
+    }
+
+    .contact-submit {
+        margin: 10px auto;
+    }
+
+    /* Tambahkan CSS untuk header-right */
+    .header-right {
+        display: none;
+    }
+
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon {
+        display: block;
+    }
 }
 
 @media (max-width: 1000px) {
-    
+
     .main {
         width: 50%;
     }
-    
+
     .main-image {
         width: 70%;
     }
@@ -57,14 +88,28 @@
         width: 110%;
     }
 
+    /* ====================================== */
+
+    /* body responsive */
+
+    .card {
+        width: 80%;
+    }
+
+    /* footer responsive */
+
+    footer {
+        text-align: center;
+    }
+
 }
 
 @media (min-width: 1000px) {
-    
+
     .text-container {
         display: flex;
         flex: auto;
     }
-    
+
 
 }
